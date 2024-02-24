@@ -12,9 +12,7 @@ const AboutMe = () => {
             <h3 className="abtH3">
               I'm currently pursuing my bachelor's degree in{' '}
               <strong>Computer Science & Engineering</strong> at{' '}
-              <a href="https://git.edu/" target="_blank">
-                <strong>Kls Gogte Institute Of Technology</strong>
-              </a>
+                <strong>KLS Gogte Institute Of Technology</strong>
               , Belagavi.
               <br />
               <br />
