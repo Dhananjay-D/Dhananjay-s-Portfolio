@@ -25,7 +25,9 @@ const Modal = ({ closeModal, title }: any) => {
     slidesPerView: 1,
     autoplay: true,
   }
-  const projectData = projectInfo[title as keyof typeof projectInfo]
+  const projectData = projectInfo[title];
+
+
   return (
     <div>
       <IonModal

@@ -18,7 +18,8 @@ import './ProjectCardComp.css'
 const ProjectCardComp = ({ title }: any) => {
   const [isShown, setIsShown] = useState(false)
   const [projectClicked, setProjectClicked] = useState('')
-  const projectData = projectInfo[title as keyof typeof projectInfo]
+  const projectData = projectInfo[title];
+
 
   return (
     <>
