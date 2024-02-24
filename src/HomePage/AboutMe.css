@@ -1,0 +1,17 @@
+.image {
+  border-radius: 25%;
+  box-shadow: #7951d247 25px 25px 11px 0px;
+  height: 400px;
+}
+a {
+  text-decoration: none;
+}
+/* desktop */
+@media screen and (min-width: 601px) {
+}
+/* mobile */
+@media screen and (max-width: 601px) {
+  .abtH3 {
+    font-size: 22px;
+  }
+}

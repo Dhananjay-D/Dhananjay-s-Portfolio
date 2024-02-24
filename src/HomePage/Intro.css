@@ -1,0 +1,66 @@
+.header {
+  color: white;
+  font-size: 105px;
+  font-family: 'RedHat-Bold';
+  background: linear-gradient(91.96deg, #ffffff 42.35%, #9983fc 97.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.Introcontact-ion-icon {
+  margin: 0 3% 0 0;
+  font-size: 30px;
+}
+
+.introButton {
+  text-transform: none;
+  height: 84px;
+  width: 10%;
+  font-size: 3vmin;
+  --background: #2f2b44;
+  --border-radius: 50%;
+  padding: 5px 5px;
+}
+
+.intro-content {
+  position: relative;
+  display: flex;
+}
+.herocontent {
+  position: absolute;
+}
+
+.intro-desc {
+  font-size: 32px;
+  color: #c5c5c5;
+}
+.bgImage {
+  margin-left: auto;
+  opacity: 0.5;
+}
+/* mobile */
+@media screen and (max-width: 601px) {
+  .intro-content {
+    margin-bottom: 10%;
+    position: relative;
+    display: flex;
+  }
+  .bgImage {
+    margin-top: 65%;
+  }
+  .header {
+    font-size: 42px;
+  }
+  .intro-desc {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 950px) {
+  .intro-content {
+    margin-bottom: 10%;
+    position: relative;
+    display: flex;
+  }
+}

@@ -1,0 +1,50 @@
+.eduName {
+  font-size: 25px;
+  margin: 2% 0 2% 0;
+  color: #bca0f4;
+}
+.eduDate {
+  color: white;
+  font-size: 25px;
+  margin-left: 35px;
+}
+.ion-icon-education {
+  font-size: 60px;
+  margin: 0 3% 0 0;
+}
+
+.bgColor-exp {
+  background-color: #2f2b44;
+  border-radius: 25px;
+}
+
+@media (max-width: 1400px) {
+  .ion-icon-education {
+    font-size: 45px;
+    margin: 0 3% 0 0;
+  }
+}
+@media (max-width: 1000px) {
+  .courseName {
+    font-size: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .eduDate {
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .courseName {
+    font-size: 25px;
+  }
+
+  .eduName {
+    font-size: 18px;
+    margin: 5% 0 2% 0;
+  }
+  .eduDate {
+    font-size: 15px;
+  }
+}
