@@ -1,6 +1,6 @@
-import { Redirect, Route } from 'react-router-dom'
-import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react'
-import { IonReactRouter } from '@ionic/react-router'
+// import { Redirect} from 'react-router-dom'
+import { setupIonicReact } from '@ionic/react'
+import { BrowserRouter, Route } from 'react-router-dom'
 import '@ionic/react/css/core.css'
 
 /* Basic CSS for apps built with Ionic */
@@ -23,15 +23,9 @@ import Homepage from './HomePage/HomePage'
 setupIonicReact()
 
 const App: React.FC = () => (
-  <IonApp>
-    <IonReactRouter>
-      <IonRouterOutlet>
-        <Route>
-          <Homepage />
-        </Route>
-      </IonRouterOutlet>
-    </IonReactRouter>
-  </IonApp>
+  <BrowserRouter>
+    <Route path="/" component={Homepage} />
+  </BrowserRouter>
 )
 
 export default App
