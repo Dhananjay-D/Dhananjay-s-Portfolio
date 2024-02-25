@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="ion-text-center test footerDiv">
       <a target="_blank" href={linkedin}>
         <h5>Copyright © 2024 
-          <a className="copyright" target="_blank" href="https://dhananjaysportfolio.online">
+          <a className="copyright" target="_self" href="https://dhananjaysportfolio.online">
            <span> </span> Dhananjay's_Portfolio
           </a> | All rights reserved.</h5>
       </a>
