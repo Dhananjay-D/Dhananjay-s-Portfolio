@@ -10,15 +10,15 @@ export const universityWebsite = {
   details: 'Dynamic University Website made using React + MaterialUI and Firebase',
 }
 export const todoListApplication = {
-  title: 'Todo-list Website',
-  images: ['todoListProj.png'],
-  category: 'Web App',
-  projectUrl: 'https://github.com/Dhananjay-D/Listify.git',
-  liveUrl: 'https://listify-react.netlify.app/',
+  title: 'E-Bharat',
+  images: ['ecommerce.png'],
+  category: 'Ecommerce Web Application',
+  projectUrl: 'https://github.com/Dhananjay-D/Ecommerce-Website.git',
+  liveUrl: 'https://e-bharath.netlify.app/',
   description:
-    'A Todo-List Web Application that helps you organize tasks, set priorities, and manage your daily agenda efficiently, ensuring you stay productive and organized.',
-  tech: ['React'],
-  details: 'A Simple Todo-list application made using React',
+    'Explore, shop, and save on a wide range of products. Your one-stop destination for easy and enjoyable online shopping.',
+  tech: ['React','Redux','Firebase'],
+  details: 'Ecommerce Web Application made using React and Firebase',
 }
 export const bmiCalculator = {
   title: 'BMI Calculator',
