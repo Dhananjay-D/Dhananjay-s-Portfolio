@@ -9,7 +9,7 @@ const Project = () => {
       <IonGrid>
         <IonRow>
           <ProjectCardComp title="universityWebsite"></ProjectCardComp>
-          <ProjectCardComp title="todoListApplication"></ProjectCardComp>
+          <ProjectCardComp title="careerBanaoWebsite"></ProjectCardComp>
           <ProjectCardComp title="bmiCalculator"></ProjectCardComp>
         </IonRow>
       </IonGrid>

@@ -3,14 +3,13 @@ import { IonCard, IonGrid, IonRow, IonCol, IonCardContent } from '@ionic/react'
 import { FaGithub } from 'react-icons/fa'
 import { GrMysql } from 'react-icons/gr'
 import { DiGit } from 'react-icons/di'
-import { SiTypescript, SiReactrouter, SiRedux, SiTailwindcss, SiPowerbi } from 'react-icons/si'
+import { SiTailwindcss } from 'react-icons/si'
 
 import './Skills.css'
-import { FaJava, FaPython, FaReact, FaHtml5, FaCss3, FaBootstrap } from 'react-icons/fa'
+import { FaJava, FaReact, FaHtml5, FaCss3, FaBootstrap } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io5'
 import { IoLogoFirebase } from 'react-icons/io5'
 import { AiOutlineAntDesign } from 'react-icons/ai'
-import { IoLogoTableau } from 'react-icons/io5'
 
 const Skills = () => {
   return (
@@ -30,16 +29,6 @@ const Skills = () => {
             </IonCard>
           </IonCol>
 
-          <IonCol size="6" sizeMd="4" sizeLg="2">
-            <IonCard className="cardContent centerflex">
-              <IonCardContent>
-                <div>
-                  <FaPython className="contact-ion-icon" />
-                </div>
-                <div>Python</div>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
           <IonCol size="6" sizeMd="4" sizeLg="2">
             <IonCard className="cardContent centerflex">
               <IonCardContent>
@@ -111,16 +100,7 @@ const Skills = () => {
               </IonCardContent>
             </IonCard>
           </IonCol>
-          <IonCol size="6" sizeMd="4" sizeLg="2">
-            <IonCard className="cardContent centerflex">
-              <IonCardContent>
-                <div>
-                  <SiTypescript className="contact-ion-icon" />
-                </div>
-                <div>Typescript</div>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
+
           <IonCol size="6" sizeMd="4" sizeLg="2">
             <IonCard className="cardContent centerflex ">
               <IonCardContent>
@@ -158,47 +138,6 @@ const Skills = () => {
                   <AiOutlineAntDesign className="contact-ion-icon" />
                 </div>
                 <div>Ant Design</div>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
-          <IonCol size="6" sizeMd="4" sizeLg="2">
-            <IonCard className="cardContent centerflex ">
-              <IonCardContent>
-                <div>
-                  <IoLogoTableau className="contact-ion-icon" />
-                </div>
-                <div>Tableau</div>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
-          <IonCol size="6" sizeMd="4" sizeLg="2">
-            <IonCard className="cardContent centerflex ">
-              <IonCardContent>
-                <div>
-                  <SiPowerbi className="contact-ion-icon" />
-                </div>
-                <div>Power BI</div>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
-
-          <IonCol size="6" sizeMd="4" sizeLg="2">
-            <IonCard className="cardContent centerflex ">
-              <IonCardContent>
-                <div>
-                  <SiReactrouter className="contact-ion-icon" />
-                </div>
-                <div>React Router</div>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
-          <IonCol size="6" sizeMd="4" sizeLg="2">
-            <IonCard className="cardContent centerflex ">
-              <IonCardContent>
-                <div>
-                  <SiRedux className="contact-ion-icon" />
-                </div>
-                <div>Redux</div>
               </IonCardContent>
             </IonCard>
           </IonCol>

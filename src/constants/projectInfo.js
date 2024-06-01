@@ -9,16 +9,16 @@ export const universityWebsite = {
   tech: ['React', 'Material UI', 'Firebase'],
   details: 'Dynamic University Website made using React + MaterialUI and Firebase',
 }
-export const todoListApplication = {
-  title: 'E-Bharat',
-  images: ['ecommerce.png'],
-  category: 'Ecommerce Web Application',
-  projectUrl: 'https://github.com/Dhananjay-D/Ecommerce-Website.git',
-  liveUrl: 'https://e-bharath.netlify.app/',
+export const careerBanaoWebsite = {
+  title: 'CareerBanao Official Website',
+  images: ['careerBanao.png'],
+  category: 'Website',
+  projectUrl: 'https://careerbanao.org/',
+  liveUrl: 'https://careerbanao.org/',
   description:
-    'Explore, shop, and save on a wide range of products. Your one-stop destination for easy and enjoyable online shopping.',
-  tech: ['React','Redux','Firebase'],
-  details: 'Ecommerce Web Application made using React and Firebase',
+    "Career Banao is India's leading career counselling organisation. They primarily provide guidance to engineering and medical students.",
+  tech: ['React','Tailwind CSS','Firebase'],
+  details: 'Responsive website made using React, Tailwind CSS and Firebase',
 }
 export const bmiCalculator = {
   title: 'BMI Calculator',
